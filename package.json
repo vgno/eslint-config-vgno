@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-vgno",
+  "version": "1.0.0",
+  "description": "ESLint configuration for VG.no coding standard",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm prune && npm test",
+    "pretest": "eslint .",
+    "test": "node test/config.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vgno/eslint-config-vgno.git"
+  },
+  "keywords": [
+    "coding-standard",
+    "eslint",
+    "eslint-config",
+    "eslintconfig"
+  ],
+  "author": "Verdens Gang AS <tech@vg.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vgno/eslint-config-vgno/issues"
+  },
+  "homepage": "https://github.com/vgno/eslint-config-vgno#readme",
+  "dependencies": {
+    "lodash.merge": "^3.3.2",
+    "vgno-coding-standards": "^1.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.1"
+  }
+}
