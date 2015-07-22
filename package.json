@@ -26,7 +26,7 @@
   "homepage": "https://github.com/vgno/eslint-config-vgno#readme",
   "dependencies": {
     "lodash.merge": "^3.3.2",
-    "vgno-coding-standards": "^1.0.6"
+    "vgno-coding-standards": "^1.0.7"
   },
   "devDependencies": {
     "eslint": "^0.24.1"
