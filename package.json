@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vgno",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "ESLint configuration for VG.no coding standard",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/vgno/eslint-config-vgno#readme",
   "dependencies": {
-    "lodash.merge": "^3.3.2",
-    "vgno-coding-standards": "^5.0.0"
+    "lodash.merge": "^4.3.4",
+    "vgno-coding-standards": "^6.0.0"
   },
   "devDependencies": {
-    "eslint": "^1.7.3"
+    "eslint": "^2.7.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
