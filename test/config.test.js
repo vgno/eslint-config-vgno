@@ -19,4 +19,4 @@ assert.equal(reactConfig.rules.yoda, 2);
 // Ensure the React config specifies React rules, JSX and React plugin
 assert(reactConfig.rules['react/jsx-boolean-value'], 2);
 assert((reactConfig.plugins || []).indexOf('react') > -1);
-assert(reactConfig.ecmaFeatures.jsx);
+assert(reactConfig.parserOptions.ecmaFeatures.jsx);
